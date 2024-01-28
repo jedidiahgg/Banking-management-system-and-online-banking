@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background: url("images/bank7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	width: 80%;
+	height: 70vh;
+	border: 2px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	opacity: 0.8;
+}
+
+.container .box1 {
+	display: inline-block;
+	width: 48%;
+	height: 70vh;
+	float: left;
+	color: white;
+
+}
+
+.container .box2 {
+	display: inline-block;
+	width: 48%;
+	height: 70vh;
+	border: 2px solid black;
+	float: right;
+}
+
+.container .logo {
+	width: 100px;
+	height: 100px;
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+.container .box1 h1 {
+	text-align: center;
+}
+
+.container .box1 h2 {
+	display: inline;
+	padding: 10px;
+}
+
+.container .box1 div {
+	margin-top: 12%;
+	margin-left: 23%;
+}
+
+.container form {
+	margin-top: 5%;
+	margin-left: 25%;
+}
+
+.box2 {
+	color: white;
+}
+
+.container .box2 .input {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+	background-color: black;
+	border: 1px;
+	border-bottom: 4px solid green;
+	color: white;
+	outline: none;
+
+}
+
+.container .box2 .submit {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	margin: 12px;
+	padding: 10px;
+	background-color: green;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	opacity: 1;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.container .box2 a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.box2 h1 {
+	color: white;
+	margin-top: 25%;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.box1 img {
+	width: 20px;
+	height: 20px;
+}
